@@ -1,0 +1,146 @@
+:root {
+--main-font:'Roboto', sans-serif;
+--secondary-font: 'Raleway', sans-serif;
+--accent-color: #212121;
+}
+body {
+font-family: var(--main-font); 
+}
+
+/* ========= header ======= */
+.logo {
+font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+
+.address {
+font-style: normal;
+}
+.navigation-list-link,
+.header-tel,
+.header-mail {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.02em;
+color: var(--accent-color);
+}
+.header-tel,
+.header-mail{
+color: #757575;
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.header-tel:hover,
+.header-tel:focus,
+.header-mail:hover,
+.header-mail:focus {
+color: #2196F3;
+}
+/* ========= end header ======= */
+/* ========= hero ========== */
+.hero-section {
+
+}
+.hero-section-main-title {
+font-weight: 900;
+font-size: 44px;
+line-height: 1.363;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+/* color: #FFFFFF;  */
+}
+.hero-section-links {
+font-weight: 700;
+font-size: 16px;
+line-height: 1.363;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+/* color: #FFFFFF; */
+}
+/* ========= end hero ======= */
+/* ========= about ======= */
+.title {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.about-list-item-description {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.142;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/* ========= end about ======= */
+/* ========= development ======= */
+.development-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.166;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+/* ========= end development ======= */
+/* ========= command ======= */
+.command-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.166;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.command-list-item-text {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.187;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.command-list-item-link {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.187;
+text-align: center;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/* ========= end command ======= */
+/* ========= contact ======= */
+.contact-title-link {
+font-family: var(--secondary-font);
+font-weight: 700;
+font-size: 26px;
+line-height: 1.192;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.contact-list-item-text {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+/* color: #FFFFFF; */
+}
+.contact-list-item-link {
+font-weight: 400;
+font-size: 14px;
+line-height: 1.714;
+letter-spacing: 0.03em;
+/* color: rgba(255, 255, 255, 0.6); */
+}
+/* ========= end contact ======= */
